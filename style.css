@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main{
+    padding: 2em 4em;
+    height: 100vh;
+    background: url(assets/fonbgr.jpg) center center no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.h_link{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.link{
+    font-size: 20px;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 18px 30px;
+    border-radius: 10px 0px 0px 10px;
+    font-family: "Tenor Sans", sans-serif;
+    line-height: 1em;
+}
+.h_logo{
+    padding: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 400;
+}
+.h_logo_s{
+    font-size: 13px;
+    font-weight: 50;
+    letter-spacing: 1px;
+    color: rgb(146, 146, 146);
+}
+
+#bgr{
+    background-color: rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(5px);
+    padding: 10px 50px;
+    height: 100%;
+}
+#bgr_btn{
+    background-color: #caac65;
+    backdrop-filter: blur(5px);
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    height: 100%;
+    gap: 30px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    height: 100%;
+    font-size: 15px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    font-weight: 300;
+}
+
+.container_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.losung{
+    font-size: 100px;
+    font-weight: 600;
+    line-height: .9em;
+}
+.legend{
+    font-weight: 500;
+    font-family: "Tenor Sans", sans-serif;
+}
+
+.satze{
+    font-size: 50px;
+    font-weight: 200;
+}
+
