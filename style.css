@@ -11,7 +11,10 @@ body{
     color: white;
     background-color: #000000;
 }
-
+::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+}
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
@@ -186,4 +189,50 @@ a{
 }
 .svg{
     height: 30px;
+}
+
+
+
+/* why_the_legend */
+.why_the_legend{
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.heading{
+    text-align: center;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 80px;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 30px;
+}
+.s_lr_txt{
+    font-weight: 500;
+}
+
+.specifications{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s_left_right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px;
+}
+
+.proposal{
+    text-align: center;
+    color: rgb(209, 209, 209);
+    font-weight: 200;
+    font-size: 30px;
 }
