@@ -315,3 +315,66 @@ a{
     display: flex;
     justify-content: space-between;
 }
+
+
+/* FOTO_BLOKS */
+.foto_bloks{
+    padding: 5em 2em 0 2em;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.inner_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.inner_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.foto_1{
+    background: url(assets/foto1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 800px;
+}
+.foto_2{
+    background: url(assets/foto2.jpg) center center no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 950px;
+}
+
+.foto_3{
+    background: url(assets/foto3.jpg) center center no-repeat;
+    background-size: cover;
+    height: 570px;
+    width: 800px;
+}
+.foto_4{
+    background: url(assets/foto4.jpg) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.foto_1, .foto_2, .foto_3, .foto_4{
+    padding: .5em;
+    display: flex;
+    align-items: end;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1em;
+    text-shadow: 0 0 50px black;
+} 
+
+.jeofjo{
+    height: 100vh;
+}
