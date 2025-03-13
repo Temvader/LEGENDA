@@ -9,6 +9,7 @@ body{
     padding: 0;
     font-family: "Montserrat", sans-serif;
     color: white;
+    background-color: #000000;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -136,3 +137,53 @@ a{
     font-weight: 200;
 }
 
+
+/* ADVANTAGES */
+
+.advantages{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_txt{
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.advant_text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.gold{
+    color: #caac65;
+}
+.description{
+    text-align: center;
+    font-size: 30px;
+}
+
+.img_description{
+    height: 40vh;
+    background: url(assets/advantages-fon.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 50px;
+    padding: 1em 7em;
+    border-radius: 500px;
+}
+.d_lcr{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.svg{
+    height: 30px;
+}
