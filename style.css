@@ -236,3 +236,82 @@ a{
     font-weight: 200;
     font-size: 30px;
 }
+
+/* LAYOT */
+.layout{
+    height: auto;
+    padding: 0 2em;
+}
+
+.menu_choice{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.choice{
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.lists{
+    display: flex;
+    gap: 100px;
+    color: #9A9A9A;
+    font-size: 30px;
+}
+.list_down{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.examples{
+    padding-top: 4em;
+}
+.line_1{
+    display: flex;
+    justify-content: space-between;
+}
+.laot{
+    height: 260px;
+}
+.view{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.application{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.square{
+    font-weight: 600;
+}
+.price{
+    font-weight: 100;
+    font-size: 30px;
+}
+.app_buy{
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    background-color: #caac65;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+    font-weight: 600;
+    width: 80%;
+}
+
+.line_2{
+    padding-top: 6em;
+    display: flex;
+    justify-content: space-between;
+}
