@@ -53,26 +53,12 @@ a{
 
 
 .logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100%;
     padding: 18px 30px;
     border-radius: 10px 0px 0px 10px;
-    font-family: "Tenor Sans", sans-serif;
-    line-height: 1em;
 }
-.h_logo{
-    padding: 10px 0 0 0;
-    font-size: 32px;
-    font-weight: 400;
-}
-.h_logo_s{
-    font-size: 13px;
-    font-weight: 50;
-    letter-spacing: 1px;
-    color: rgb(146, 146, 146);
+.logo_img{
+    height: 50px;
 }
 
 #bgr{
@@ -84,6 +70,7 @@ a{
 #bgr_btn{
     background-color: #caac65;
     backdrop-filter: blur(5px);
+    transition: .8s all;
 }
 
 .social{
@@ -95,7 +82,7 @@ a{
     gap: 30px;
 }
 
-.phone{
+.clik_header{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,6 +95,15 @@ a{
     color: white;
     text-shadow: 0px 0px 20px black;
     font-weight: 300;
+}
+#bgr_btn:hover{
+    background-color: #ffd26b;
+    color: #ffffff;
+    cursor: pointer;
+}
+#bgr_btn:focus{
+    background-color: #ffd26b;
+    color: #ffffff;
 }
 
 .container_bottom{
@@ -308,6 +304,17 @@ a{
     text-shadow: 0px 0px 20px black;
     font-weight: 600;
     width: 80%;
+
+    transition: .8s all;
+}
+.app_buy:hover{
+    background-color: #ffd26b;
+    color: #ffffff;
+    cursor: pointer;
+}
+.app_buy:focus{
+    background-color: #ffd26b;
+    color: #ffffff;
 }
 
 .line_2{
@@ -355,7 +362,7 @@ a{
 .foto_3{
     background: url(assets/foto3.jpg) center center no-repeat;
     background-size: cover;
-    height: 570px;
+    height: 590px;
     width: 800px;
 }
 .foto_4{
@@ -373,8 +380,179 @@ a{
     font-weight: 600;
     line-height: 1em;
     text-shadow: 0 0 50px black;
-} 
+    transition: .8s all;
+}
+.foto_1:hover{
+    transform: scale(1.02);
+}
+.foto_2:hover{
+    transform: scale(1.02);
+}
+.foto_3:hover{
+    transform: scale(1.02);
+}
+.foto_4:hover{
+    transform: scale(1.02);
+}
 
-.jeofjo{
-    height: 100vh;
+
+/* FORMA */
+.forma{
+    padding: 4em;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f_left{
+    width: 60%;
+}
+
+.f_left{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.f_main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mf_img{
+    display: flex;
+    gap: 10px;
+}
+.sponsors_banks{
+    height: 45px;
+}
+
+.mf_txt{
+    font-size: 30px;
+}
+
+
+
+
+.fr_top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.field_name_phone{
+    padding: 1em;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #929292;
+}
+.field_name_phone:hover{
+    cursor: pointer;
+}
+
+
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.number_phone{
+    font-size: 25px;
+    color: #929292;
+}
+.white{
+    color: white;
+    font-weight: 200;
+}
+
+
+.country{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+.ru{
+    height: 25px;
+    padding: 0;
+    margin: 0;
+}
+.ru_polygon{
+    height: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.f_right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 40%;
+}
+
+.to_send{
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #caac65;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0 0 40px black;
+    transition: .8s all;
+}
+.to_send:hover{
+    background-color: #ffd26b;
+    color: #ffffff;
+    cursor: pointer;
+}
+.to_send:focus{
+    background-color: #ffd26b;
+    color: #ffffff;
+}
+
+.fr_end{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    color: #929292;
+    line-height: 1em;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    height: auto;
+    padding: 2em;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.f_logo{
+    font-family: "Tenor Sans", sans-serif;
+    color: #caac65;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.footer_right{
+    display: flex;
+    gap: 54px;
+}
+.link_f{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
