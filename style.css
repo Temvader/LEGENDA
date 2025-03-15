@@ -49,6 +49,7 @@ a{
 }
 .link{
     font-size: 20px;
+    color: white;
 }
 
 
@@ -262,7 +263,9 @@ a{
     align-items: center;
     gap: 10px;
 }
-
+.list_down:hover{
+    cursor: pointer;
+}
 
 .examples{
     padding-top: 4em;
@@ -425,6 +428,9 @@ a{
 }
 .sponsors_banks{
     height: 45px;
+}
+.sponsors_banks:hover{
+    cursor: pointer;
 }
 
 .mf_txt{
