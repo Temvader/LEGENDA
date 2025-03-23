@@ -57,6 +57,8 @@ a{
     height: 100%;
     padding: 18px 30px;
     border-radius: 10px 0px 0px 10px;
+    display: flex;
+    align-items: center;
 }
 .logo_img{
     height: 50px;
@@ -83,16 +85,16 @@ a{
     gap: 30px;
 }
 
-.clik_header{
+.clik_header, .clik_menu{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 30px;
+    padding: 0 20px;
+    width: 100%;
     height: 100%;
-    font-size: 15px;
     border-radius: 0px 10px 10px 0px;
     border: none;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-shadow: 0px 0px 20px black;
     font-weight: 300;
@@ -172,14 +174,13 @@ a{
 }
 
 .img_description{
-    height: 40vh;
     background: url(assets/advantages-fon.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: end;
     gap: 50px;
-    padding: 1em 7em;
+    padding: 7em 4em 1em 7em;
     border-radius: 500px;
 }
 .d_lcr{
@@ -198,10 +199,10 @@ a{
 
 /* why_the_legend */
 .why_the_legend{
-    padding: 4em 0;
+    padding: 4em 2em;
     display: flex;
     margin: 0 auto;
-    width: 1000px;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
     gap: 100px;
@@ -311,7 +312,6 @@ a{
     color: white;
     text-shadow: 0px 0px 20px black;
     font-weight: 600;
-    width: 80%;
 
 
     transition: .8s all;
@@ -338,21 +338,19 @@ a{
 .foto_bloks{
     padding: 5em 2em 0 2em;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
 .inner_left{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 20px;
 }
 .inner_right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
 }
 
 .foto_1{
@@ -448,6 +446,7 @@ a{
 .fr_top{
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 10px;
 }
 .field_name_phone{
@@ -559,18 +558,372 @@ footer{
 .footer_right{
     display: flex;
     align-items: end;
-    gap: 54px;
+    gap: 50px;
 }
 .link_f{
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
+.more{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: none;
+}
 
+.fh_text2{
+    display: none;
+}
 
 /* MEDIA */
-@media (max-width: 1000px){
+@media (max-width: 1620px){
     
+    .link{
+        font-size: 1.2vw;
+    }
+
+    .h_link, .social{
+        display: flex;
+        gap: .8vw;
+    }
+
 }
+
+@media (max-width: 1530px){
+    
+    .social, .h_link{
+        display: none;
+    }
+
+    .clik_header{
+        display: none;
+    }
+
+    .clik_menu{
+        display: block;
+    }
+
+    .personal{
+        font-size: .89vw;
+    }
+
+    .mf_txt{
+        font-size: 1.7vw;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    .line_1, .line_2{
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
+    
+    .menu_choice{
+        gap: 15px;
+    }
+
+    .choice{
+        font-size: 5vw;
+    }
+
+    .lists{
+        font-size: 2vw;
+        gap: 2vw;
+    }
+
+    .down{
+        height: 1.5vw;
+    }
+
+    .app_buy{
+        font-size: 3vw;
+    }
+
+    .losung{
+        font-size: 8vw;
+    }
+
+    .satze{
+        font-size: 4vw;
+    }
+
+    .a_txt{
+        font-size: 3.5vw;
+    }
+
+    .description{
+        font-size: 2vw;
+    }
+
+    .number_phone, .name{
+        font-size: 2vw;
+    }
+
+    .forma{
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .f_left{
+        align-items: center;
+    }
+
+    .mf_text{
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .mf_img{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .fr_top{
+        width: 100%;
+    }
+
+    .field_name_phone{
+        width: 400px;
+    }
+
+    .fr_top{
+        align-items: center;
+    }
+
+    .link_f{
+        display: none;
+    }
+
+    .more{
+        display: block;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    .foto_tetx{
+        font-size: 2vw;
+        line-height: 1em;
+    }
+
+}
+
+@media (max-width: 900px){
+
+    .app_buy{
+        font-size: 1.2em;
+        font-weight: 400;
+        width: 260px;
+    }
+
+    .personal{
+        font-size: 10px;
+    }
+
+    .fr_right{
+        width: 300px;   
+        justify-content: center;     
+    }
+
+    .advantages{
+        padding: 2em;
+    }
+
+    .svg_txt{
+        font-size: 1.3vw;
+    }
+
+    .svg{
+        height: 4vw;
+    }
+
+}
+
+@media (max-width: 800px){
+
+    .fh_text{
+        font-size: 1.4em;
+        text-overflow: none;
+    }
+
+    .img_description{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4em 0em;
+        width: unset;
+        gap: 25vw;
+        border-radius: 300px;
+    }
+
+    .svg_txt{
+        font-size: 3vw;
+    }
+
+    .heading{
+        font-size: 8vw;
+    }
+
+    .specifications{
+        flex-direction: column;
+        gap: 5em;
+        font-size: 4vw;
+    }
+
+    .bold{
+        font-size: 5vw;
+    }
+
+    .proposal{
+        font-size: 4vw;
+    }
+
+    .foto_bloks{
+        flex-direction: column;
+    }
+
+    .foto_tetx{
+        font-size: 4vw;
+    }
+
+    footer{
+        padding: 2em 0em;
+        width: 100%;
+    }
+
+    .logo_img{
+        height: 6vw;
+    }
+
+}
+
+@media (max-width: 860px){
+
+    .forma{
+        padding: 2em 0.4em;
+    }
+
+    .fr_end{
+        font-size: 5px;
+        line-height: 1.5em;
+        font-weight:500;
+        text-align: center;
+    }
+
+    .f_right{
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .mf_txt{
+        font-size: 2.5vw;
+    }
+
+    footer{
+        padding: 1em 1em;
+        justify-content: center;
+    }
+
+    .f_logo{
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .more{
+        display: none;
+    }
+
+    .name, .number_phone{
+        font-size: 16px;
+    }
+
+    .ru{
+        height: 20px;
+    }
+
+    .ru_polygon{
+        height: 10px;
+    }
+
+    .lists{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list_down{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px dashed #424242;
+        padding: 1em 0;
+    }
+
+    .list_down{
+        font-size: 3.2vw;
+    }
+
+    .down{
+        height: 2vw;
+    }
+
+    .a_txt{
+        font-size: 3.6vw;
+    }
+
+    .description{
+        font-size: 2.4vw;
+    }
+
+    .center{
+        padding: unset;
+    }
+
+}
+
+
+@media (max-width: 500px){
+
+    .forma{
+        padding: 3em 1em;
+    }
+
+    .f_right{
+        width: unset;
+        padding: unset;
+    }
+
+    .field_name_phone{
+        width: unset;
+        width: 100%;
+    }
+
+    .sponsors_banks{
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 400px){
+
+    .losung{
+        font-size: 2em;
+    }
+
+    .satze{
+        font-size: .6em;
+        font-weight: 300;
+    }
+}
+
