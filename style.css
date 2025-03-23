@@ -29,7 +29,7 @@ a{
     padding: 2em 4em;
     height: 100vh;
     background: url(assets/fonbgr.jpg) center center no-repeat;
-    background-size: 100%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -97,6 +97,11 @@ a{
     text-shadow: 0px 0px 20px black;
     font-weight: 300;
 }
+
+.clik_menu{
+    display: none;
+}
+
 #bgr_btn:hover{
     background-color: #ffd26b;
     color: #ffffff;
@@ -141,10 +146,11 @@ a{
 /* ADVANTAGES */
 
 .advantages{
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2em 0;
 }
 
 .a_txt{
@@ -192,7 +198,7 @@ a{
 
 /* why_the_legend */
 .why_the_legend{
-    height: 100vh;
+    padding: 4em 0;
     display: flex;
     margin: 0 auto;
     width: 1000px;
@@ -236,7 +242,6 @@ a{
 
 /* LAYOT */
 .layout{
-    height: auto;
     padding: 0 2em;
 }
 
@@ -308,12 +313,14 @@ a{
     font-weight: 600;
     width: 80%;
 
+
     transition: .8s all;
 }
 .app_buy:hover{
     background-color: #ffd26b;
     color: #ffffff;
     cursor: pointer;
+    box-shadow: 0px 0px 200px #caac65;
 }
 .app_buy:focus{
     background-color: #ffd26b;
@@ -330,7 +337,6 @@ a{
 /* FOTO_BLOKS */
 .foto_bloks{
     padding: 5em 2em 0 2em;
-    height: auto;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -353,20 +359,20 @@ a{
     background: url(assets/foto1.jpg) center center no-repeat;
     background-size: cover;
     height: 500px;
-    width: 800px;
+    width: 100%;
 }
 .foto_2{
     background: url(assets/foto2.jpg) center center no-repeat;
     background-size: cover;
     height: 600px;
-    width: 950px;
+    width: 100%;
 }
 
 .foto_3{
     background: url(assets/foto3.jpg) center center no-repeat;
     background-size: cover;
     height: 590px;
-    width: 800px;
+    width: 100%;
 }
 .foto_4{
     background: url(assets/foto4.jpg) center center no-repeat;
@@ -402,7 +408,6 @@ a{
 /* FORMA */
 .forma{
     padding: 4em;
-    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -538,7 +543,6 @@ a{
 
 /* FOOTER */
 footer{
-    height: auto;
     padding: 2em;
     display: flex;
     align-items: end;
@@ -554,6 +558,7 @@ footer{
 
 .footer_right{
     display: flex;
+    align-items: end;
     gap: 54px;
 }
 .link_f{
@@ -561,4 +566,11 @@ footer{
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+
+
+/* MEDIA */
+@media (max-width: 1000px){
+    
 }
